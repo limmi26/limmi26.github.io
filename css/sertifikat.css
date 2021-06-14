@@ -1,5 +1,6 @@
 @import url(root.css);
 
+/* global css */
 html {
     scroll-behavior: smooth;
     box-sizing: border-box;
@@ -50,6 +51,7 @@ main > section:nth-child(2) {
     margin-bottom: 80px;
 }
 
+/* header */
 header {
     width: 100%;
     position: fixed;
@@ -57,10 +59,12 @@ header {
     margin-bottom: 75px;
 }
 
+/* main */
 main {
     padding-top: 80px;
 }
 
+/* navigasi */
 nav {
     display: flex;
     justify-content: space-between;
@@ -116,6 +120,7 @@ nav ul li a:active, nav ul li a:hover {
     background-color: var(--mid-blue);
 }
 
+/* intro */
 .model {
     height: 530px;
     position: absolute;
@@ -181,6 +186,7 @@ nav ul li a:active, nav ul li a:hover {
     margin-left: 10px;
 }
 
+/* me */
 .me {
     display: flex;
     position: relative;
@@ -239,6 +245,7 @@ nav ul li a:active, nav ul li a:hover {
     background-color: #262525;
 }
 
+/* sertifikat */
 .cert {
     height: auto;
     background-color: #ffffff;
@@ -313,6 +320,7 @@ nav ul li a:active, nav ul li a:hover {
     background-color: var(--dark-blue);
 }
 
+/* footer */
 footer {
     height: 200px;
     display: flex;
@@ -331,7 +339,7 @@ footer p {
     line-height: 10px;
 }
 
-
+/* media sosial */
 .socials a {
     width: 40px;
     height: 40px;
@@ -362,16 +370,18 @@ footer p {
     transition: all ease 0.3s;
 }
 
+/* copyright */
 .copyright {
     color: white;
     font-weight: unset;
     font-size: 20px;
     position: absolute;
-    left: 85%;
+    left: 84%;
     bottom: -5px;
     transform: translateX(-10%);
 }
 
+/* side sosial */
 .side-social {
     position: fixed;
     top: 50%;
@@ -403,6 +413,7 @@ footer p {
     color: black;
 }
 
+/* RESPONSIVE */
 @media(max-width: 1000px) {
     * {
         box-sizing: border-box;
