@@ -376,7 +376,7 @@ footer p {
     font-weight: unset;
     font-size: 20px;
     position: absolute;
-    left: 84%;
+    left: 80%;
     bottom: -5px;
     transform: translateX(-10%);
 }
