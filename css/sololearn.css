@@ -1,4 +1,4 @@
-/* style */
+/* global css */
 *, *::after, *::before {
 	padding: 0;
 	margin: 0;
@@ -79,7 +79,6 @@ svg:not(:root) {
 }
 
 /* header */
-
 header {
 	position: relative;
 	background-image: url(../assets/bg.jpeg);
@@ -153,7 +152,6 @@ header {
 }
 
 /* skill */
-
 .skill-icons {
 	padding-top: 50px;
 	background: darkslategrey;
@@ -190,8 +188,7 @@ header {
 }
 
 
-/* subscribe */
-
+/* subscribe  form */
 .subscribe {
 	padding-top: 100px;
 	padding-bottom: 120px;
@@ -255,8 +252,7 @@ header {
 	border: none;
 }
 
-/* contact */
-
+/* kontak */
 .contact {
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -341,7 +337,6 @@ header {
 }
 
 /* footer */
-
 footer {
 	background-color: teal;
 	margin: auto;
