@@ -1,10 +1,4 @@
-:root {
-    --dark-blue: #17252A;
-    --mid-blue: #2B7A78;
-    --normal-blue: #3AAFA9;
-    --light-blue: #DEF2F1;
-    --white-blue: #FEFFFF;
-}
+@import url(root.css);
 
 html {
     scroll-behavior: smooth;
