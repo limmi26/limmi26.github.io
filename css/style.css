@@ -184,8 +184,8 @@ button:hover{
     background: #fff;
     box-shadow: 5px 5px 20px rgb(0 0 0 / 20%);
     border-radius: 10px;
-    margin: auto 600px;
-    height: 82vh;
+    margin: auto 480px;
+    height: 102vh;
 }
 
 .skill-bars .bar{
