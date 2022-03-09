@@ -162,9 +162,210 @@ button:hover{
 	cursor: pointer;
 }
 
+/* skill */
+#skills {
+	padding: 100px 0;
+	background: #101010;
+}
+
+#skills .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.skill-bars{
+	padding: 25px 30px;
+    width: 40%;
+    background: #fff;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    margin: auto 600px;
+    height: 82vh;
+}
+
+.skill-bars .bar{
+  margin: 20px 0;
+}
+
+.skill-bars .bar:first-child{
+  margin-top: 0px;
+}
+
+.skill-bars .bar .info{
+  margin-bottom: 5px;
+}
+
+.skill-bars .bar .info span{
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+
+@keyframes showText {
+  100%{
+    opacity: 1;
+  }
+}
+.skill-bars .bar .progress-line{
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+              0 1px rgba(255,255,255,0.8);
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.bar .progress-line span{
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #0058f9;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .progress-line.html span{
+  width: 95%;
+}
+.bar .progress-line.css span{
+  width: 80%;
+}
+.bar .progress-line.js span{
+  width: 50%;
+}
+.bar .progress-line.node span{
+  width: 45%;
+}
+.bar .progress-line.react span{
+  width: 20%;
+}
+.bar .progress-line.figma span{
+  width: 82%;
+}
+.bar .progress-line.mulmed span{
+width: 92%;
+}
+.bar .progress-line.record span{
+width: 46%;
+}
+.bar .progress-line.edit span{
+width: 55%;
+}
+.bar .progress-line.prod span{
+width: 62%;
+}
+.bar .progress-line.compos span{
+width: 54%;
+}
+.bar .progress-line.kungfu span{
+width: 99%;
+}
+.bar .progress-line.taekwondo span{
+width: 84%;
+}
+.bar .progress-line.karate span{
+width: 82%;
+}
+.bar .progress-line.silat span{
+width: 65%;
+}
+
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+}
+.progress-line span::before{
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line span::after{
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line.html span::after{
+  content: "95%";
+}
+.progress-line.css span::after{
+  content: "80%";
+}
+.progress-line.js span::after{
+  content: "50%";
+}
+.progress-line.node span::after{
+  content: "45%";
+}
+.progress-line.react span::after{
+  content: "20%";
+}
+.progress-line.figma span::after{
+  content: "82%";
+}
+.progress-line.mulmed span::after{
+content: "92%";
+}
+.progress-line.record span::after{
+content: "46%";
+}
+.progress-line.edit span::after{
+content: "55%";
+}
+.progress-line.prod span::after{
+content: "62%";
+}
+.progress-line.compos span::after{
+content: "54%";
+}
+.progress-line.kungfu span::after{
+content: "99%";
+}
+.progress-line.taekwondo span::after{
+content: "84%";
+}
+.progress-line.karate span::after{
+content: "82%";
+}
+.progress-line.silat span::after{
+content: "65%";
+}
+
 /* projek */
 #proj{
-	background: #101010;
+	background: #191919;
 	width: 100%;
 	padding: 100px 0px;
 }
@@ -188,7 +389,7 @@ button:hover{
 	height: 365px;
 	width: 335px;
 	padding: 20px 35px;
-	background: #191919;
+	background: #101010;
 	border-radius: 20px;
 	margin: 15px;
 	position: relative;
@@ -238,7 +439,7 @@ h5{
 /* kontak */
 #contact-me{
 	width: 100%;
-    background: #191919;
+    background: #101010;
     display: flex;
     /* align-items: center; */
     /* flex-direction: column; */
@@ -337,7 +538,7 @@ footer{
 	position: relative;
 	width: 100%;
 	height: 280px;
-	background: #101010;
+	background: #191919;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
