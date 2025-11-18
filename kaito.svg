@@ -1,0 +1,28 @@
+<svg width="250" height="250" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="250" height="250" fill="#1e1e2f" rx="20" />
+
+  <!-- Kaito body -->
+  <circle cx="125" cy="180" r="35" fill="#63b3ed" />
+  <rect x="110" y="180" width="30" height="60" fill="#4a90e2" rx="5" />
+
+  <!-- Card (Remi) -->
+  <rect id="card" x="120" y="150" width="30" height="45" fill="white" rx="5" stroke="#000" stroke-width="1"/>
+  
+  <!-- Heart simbol -->
+  <path d="M135 160 
+           C138 155, 145 155, 145 165
+           C145 175, 135 180, 135 160 Z" 
+        fill="red"/>
+
+  <!-- Animation: goyang kartu -->
+  <animateTransform 
+    xlink:href="#card"
+    attributeName="transform"
+    type="rotate"
+    from="-10 135 172"
+    to="10 135 172"
+    dur="0.7s"
+    repeatCount="indefinite"
+    additive="sum" />
+</svg>
