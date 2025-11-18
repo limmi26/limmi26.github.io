@@ -49,14 +49,7 @@
 
 ### ✍️ Random Dev Quote
 <p align="center">
-  <svg width="700" height="100" xmlns="http://www.w3.org/2000/svg">
-    <!-- Background -->
-    <rect width="700" height="100" rx="12" ry="12" fill="#071430"/>
-    <!-- Quote Text -->
-    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="24" fill="#00E5FF" font-family="monospace">
-      "Apapun yang terjadi tetaplah menjadi orang baik."
-    </text>
-  </svg>
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=1&pause=1000&color=00E5FF&center=true&vCenter=true&width=700&lines=Apapun+yang+terjadi+tetaplah+menjadi+orang+baik." alt="quotes"/>
 </p>
 
 
