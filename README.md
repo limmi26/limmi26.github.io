@@ -25,7 +25,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=5000&color=%2300E5FF&center=true&vCenter=true&width=850&lines=Student+%E2%80%A2+Cybersecurity+Learner;JS+%7C+Python+%7C+Java+%7C+HTML-CSS+%7C+I%27M+JUST+LEARNING+C%23;Kali+Linux+User" alt="typing"/>
+    <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=5000&color=%2300E5FF&center=true&vCenter=true&width=850&lines=Student+%E2%80%A2+IT+Enginnering;JS+%7C+Python+%7C+Java+%7C+HTML-CSS+%7C+I%27M+JUST+LEARNING+C%23;Fullstack+Developer" alt="typing"/>
   </a>
 </p>
 
