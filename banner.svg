@@ -21,7 +21,7 @@
   <!-- left text -->
   <g transform="translate(70,70)">
     <text x="0" y="60" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="44" fill="url(#g1)">Welcome to my GitHub</text>
-    <text x="0" y="105" font-family="Inter, Arial, sans-serif" font-weight="400" font-size="18" fill="#8f99a6">NolanNeith — Student · CyberSecurity Enthusiast</text>
+    <text x="0" y="105" font-family="Inter, Arial, sans-serif" font-weight="400" font-size="18" fill="#8f99a6">Michelle Iskak — Student · IT Engineering</text>
   </g>
 
   <!-- eye container -->
