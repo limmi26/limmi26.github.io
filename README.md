@@ -54,7 +54,7 @@
     <rect width="700" height="100" rx="12" ry="12" fill="#071430"/>
     <!-- Quote Text -->
     <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="24" fill="#00E5FF" font-family="monospace">
-      "There is no lock in this world that cannot be opened."
+      "Apapun yang terjadi tetaplah menjadi orang baik."
     </text>
   </svg>
 </p>
