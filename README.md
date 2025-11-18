@@ -2,7 +2,7 @@
   <img src="banner.svg" alt="Animated welcome banner" width="100%" />
 </p>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=25&duration=5000&color=00FFDD&center=true&vCenter=true&width=500&lines=Hey+I'm+Michelle+Iskak;IT+Engineer;IT+Team+Learner;Always+Learning+New+Things!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=25&duration=5000&color=00FFDD&center=true&vCenter=true&width=500&lines=Hey+I'm+Michelle+Iskak;IT+Engineering;IT+Team+Learner;Always+Learning+New+Things!)](https://git.io/typing-svg)
 
 # 💫 About Me:
 👋 Hey — I'm Michelle Iskak<br><br>🔒 Student · IT Engineering<br><br>---<br>About Me<br>- 🎓 I'm a student focused on technology and engineer.  <br>- 💻 I enjoy building software, researching vulnerabilities, and applying defensive measures after testing.  <br>- 🌱 Currently learning engineer with emphasis on Programming Language.  <br>- 🧩 Open to collaboration and mentorship on fullstack developer, network security, secure coding, and system hardening.  <br>- ⚡ Fun fact: I once spent hours debugging only to find a missing semicolon.<br><br></p><br>--<br>Connect with me<br>- Instagram: https://www.instagram.com/leand.mi/<br>- LinkedIn: https://www.linkedin.com/in/michelle-iskak/<br>- GitHub: https://github.com/limmi26  <br>- Email: info.michh@gmail.com<br><br><br>
